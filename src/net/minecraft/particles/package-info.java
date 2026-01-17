@@ -1,0 +1,4 @@
+@ParametersAreNonnullByDefault
+package net.minecraft.particles;
+
+import javax.annotation.ParametersAreNonnullByDefault;

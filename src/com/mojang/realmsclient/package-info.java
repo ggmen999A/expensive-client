@@ -1,0 +1,4 @@
+@ParametersAreNonnullByDefault
+package com.mojang.realmsclient;
+
+import javax.annotation.ParametersAreNonnullByDefault;

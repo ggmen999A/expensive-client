@@ -1,0 +1,4 @@
+@ParametersAreNonnullByDefault
+package net.minecraft.inventory.container;
+
+import javax.annotation.ParametersAreNonnullByDefault;

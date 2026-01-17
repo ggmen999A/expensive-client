@@ -1,0 +1,152 @@
+[21:57:27] [Render thread/ERROR]: Can't find the resource index file: assets\indexes\1.16.json
+[21:57:27] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:57:28] [Render thread/INFO]: Setting user: Solth_4
+[21:57:29] [Render thread/ERROR]: Couldn't set icon
+java.io.FileNotFoundException: icons/icon_16x16.png
+	at net.minecraft.resources.VanillaPack.getResourceStream(VanillaPack.java:117) ~[algorithmdlc-1.16.5/:?]
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:356) [algorithmdlc-1.16.5/:?]
+	at net.minecraft.client.main.Main.main(Main.java:156) [algorithmdlc-1.16.5/:?]
+	at Start.main(Start.java:14) [algorithmdlc-1.16.5/:?]
+[21:57:29] [Render thread/INFO]: [OptiFine] OpenGL: Radeon (TM) RX 470 Graphics, version 4.6.0 Compatibility Profile Context 25.5.1.250226, ATI Technologies Inc.
+[21:57:29] [Render thread/INFO]: [OptiFine] OpenGL Version: 4.6.0
+[21:57:29] [Render thread/INFO]: [OptiFine] OpenGL Fancy fog: Not available (GL_NV_fog_distance)
+[21:57:29] [Render thread/INFO]: [OptiFine] Maximum texture size: 16384x16384
+[21:57:29] [Render thread/INFO]: [Shaders] Load shaders configuration.
+[21:57:29] [Render thread/INFO]: [Shaders] Save shaders configuration.
+[21:57:29] [Render thread/WARN]: [OptiFine] java.lang.ClassNotFoundException: sun.misc.SharedSecrets
+[21:57:29] [Render thread/WARN]: [OptiFine] java.lang.ClassNotFoundException: jdk.internal.misc.SharedSecrets
+[21:57:29] [Render thread/WARN]: [OptiFine] java.lang.ClassNotFoundException: sun.misc.VM
+[21:57:29] [Render thread/WARN]: [OptiFine] java.lang.reflect.InaccessibleObjectException: Unable to make public static long jdk.internal.misc.VM.maxDirectMemory() accessible: module java.base does not "exports jdk.internal.misc" to unnamed module @4b9e255
+[21:57:29] [Render thread/INFO]: Narrator library for x64 successfully loaded
+[21:57:30] [Render thread/INFO]: Loaded Platform ViaVersion
+[21:57:30] [Render thread/INFO]: Loading translations...
+[21:57:30] [Render thread/INFO]: Registering protocols...
+[21:57:30] [Via-Mappingloader-0/INFO]: Loading block connection mappings ...
+[21:57:31] [Render thread/INFO]: Loaded Platform ViaBackwards
+[21:57:31] [Render thread/INFO]: ViaVersion detected lowest supported version by the proxy: 1.4.6/7 (51)
+[21:57:31] [Render thread/INFO]: Highest supported version by the proxy: 1.20/1.20.1 (763)
+[21:57:31] [Via-Mappingloader-0/INFO]: Using FastUtil Long2ObjectOpenHashMap for block connections
+[21:57:31] [Via Async Scheduler 0/INFO]: Finished mapping loading, shutting down loader executor!
+[21:57:31] [Via Async Task 1/WARN]: There is a newer plugin version available: 5.7.0, you're on: 4.7.0
+[21:57:39] [Render thread/INFO]: [STDOUT]: Шрифты инициализированы за 7987 миллисекунд!
+[21:57:39] [Render thread/INFO]: [STDOUT]: [AttackAura ErroronEnable() Message: Cannot assign field "rotationYawOffset" because "net.minecraft.client.Minecraft.player" is null
+[21:57:39] [Render thread/INFO]: [STDERR]: java.lang.NullPointerException: Cannot assign field "rotationYawOffset" because "net.minecraft.client.Minecraft.player" is null
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.modules.impl.combat.AttackAura.reset(AttackAura.java:840)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.modules.impl.combat.AttackAura.onEnable(AttackAura.java:855)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.modules.api.Module.setState(Module.java:87)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.config.Config.lambda$loadFunctionSettings$1(Config.java:121)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.config.Config.loadSettingFromJson(Config.java:166)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.config.Config.lambda$loadFunctionSettings$3(Config.java:121)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CopyOnWriteArrayList.forEach(CopyOnWriteArrayList.java:807)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.config.Config.loadFunctionSettings(Config.java:113)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.config.Config.loadConfig(Config.java:51)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.config.ConfigStorage.loadConfiguration(ConfigStorage.java:99)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.config.ConfigStorage.setupFolder(ConfigStorage.java:36)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.config.ConfigStorage.init(ConfigStorage.java:26)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.Initclass.clientLoad(Initclass.java:195)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.Initclass.<init>(Initclass.java:154)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at net.minecraft.client.Minecraft.<init>(Minecraft.java:430)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:156)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at Start.main(Start.java:14)
+[21:57:39] [Render thread/INFO]: [STDOUT]: Loaded system configuration...
+[21:57:39] [Render thread/INFO]: [STDOUT]: [AttackAura ErroronDisable() Message: Cannot assign field "rotationYawOffset" because "net.minecraft.client.Minecraft.player" is null
+[21:57:39] [Render thread/INFO]: [STDERR]: java.lang.NullPointerException: Cannot assign field "rotationYawOffset" because "net.minecraft.client.Minecraft.player" is null
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.modules.impl.combat.AttackAura.reset(AttackAura.java:840)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.modules.impl.combat.AttackAura.onDisable(AttackAura.java:862)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.modules.api.Module.setState(Module.java:89)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.config.Config.lambda$loadFunctionSettings$3(Config.java:119)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CopyOnWriteArrayList.forEach(CopyOnWriteArrayList.java:807)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.config.Config.loadFunctionSettings(Config.java:113)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.config.Config.loadConfig(Config.java:51)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.config.ConfigStorage.loadConfiguration(ConfigStorage.java:99)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.config.ConfigStorage.loadLatestConfig(ConfigStorage.java:84)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.config.ConfigStorage.init(ConfigStorage.java:27)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.Initclass.clientLoad(Initclass.java:195)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.Initclass.<init>(Initclass.java:154)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at net.minecraft.client.Minecraft.<init>(Minecraft.java:430)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:156)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at Start.main(Start.java:14)
+[21:57:39] [Render thread/INFO]: [STDOUT]: [AttackAura ErroronEnable() Message: Cannot assign field "rotationYawOffset" because "net.minecraft.client.Minecraft.player" is null
+[21:57:39] [Render thread/INFO]: [STDERR]: java.lang.NullPointerException: Cannot assign field "rotationYawOffset" because "net.minecraft.client.Minecraft.player" is null
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.modules.impl.combat.AttackAura.reset(AttackAura.java:840)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.modules.impl.combat.AttackAura.onEnable(AttackAura.java:855)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.modules.api.Module.setState(Module.java:87)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.config.Config.lambda$loadFunctionSettings$1(Config.java:121)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.config.Config.loadSettingFromJson(Config.java:166)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.config.Config.lambda$loadFunctionSettings$3(Config.java:121)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at java.base/java.util.concurrent.CopyOnWriteArrayList.forEach(CopyOnWriteArrayList.java:807)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.config.Config.loadFunctionSettings(Config.java:113)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.config.Config.loadConfig(Config.java:51)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.config.ConfigStorage.loadConfiguration(ConfigStorage.java:99)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.config.ConfigStorage.loadLatestConfig(ConfigStorage.java:84)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.api.config.ConfigStorage.init(ConfigStorage.java:27)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.Initclass.clientLoad(Initclass.java:195)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at by.algorithm.alpha.Initclass.<init>(Initclass.java:154)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at net.minecraft.client.Minecraft.<init>(Minecraft.java:430)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:156)
+[21:57:39] [Render thread/INFO]: [STDERR]: 	at Start.main(Start.java:14)
+[21:57:39] [Render thread/INFO]: Reloading ResourceManager: Default
+[21:57:39] [Render thread/INFO]: [OptiFine] *** Reloading textures ***
+[21:57:39] [Render thread/INFO]: [OptiFine] Resource packs: Default
+[21:57:44] [Render thread/INFO]: [OptiFine] *** Reflector Forge ***
+[21:57:45] [Worker-Main-6/INFO]: [OptiFine] Multipass connected textures: false
+[21:57:45] [Worker-Main-6/INFO]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[21:57:50] [Render thread/INFO]: OpenAL initialized.
+[21:57:50] [Render thread/INFO]: Sound engine started
+[21:58:11] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:58:11] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:58:11] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:58:11] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:58:11] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:58:11] [Render thread/INFO]: Reloading ResourceManager: Default
+[21:58:12] [Render thread/INFO]: Loaded 7 recipes
+[21:58:13] [Render thread/INFO]: Loaded 927 advancements
+[21:58:14] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:58:14] [Server thread/INFO]: Starting integrated minecraft server version 1.16.5
+[21:58:14] [Server thread/INFO]: Generating keypair
+[21:58:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:58:15] [Render thread/INFO]: Preparing spawn area: 0%
+[21:58:15] [Render thread/INFO]: Preparing spawn area: 0%
+[21:58:15] [Render thread/INFO]: Preparing spawn area: 0%
+[21:58:16] [Render thread/INFO]: Preparing spawn area: 66%
+[21:58:19] [Render thread/INFO]: Preparing spawn area: 83%
+[21:58:19] [Render thread/INFO]: Preparing spawn area: 83%
+[21:58:19] [Render thread/INFO]: Preparing spawn area: 83%
+[21:58:19] [Render thread/INFO]: Preparing spawn area: 83%
+[21:58:19] [Render thread/INFO]: Preparing spawn area: 83%
+[21:58:19] [Render thread/INFO]: Preparing spawn area: 83%
+[21:58:19] [Render thread/INFO]: Preparing spawn area: 83%
+[21:58:20] [Render thread/INFO]: Preparing spawn area: 95%
+[21:58:20] [Render thread/INFO]: Preparing spawn area: 95%
+[21:58:21] [Render thread/INFO]: Time elapsed: 6439 ms
+[21:58:21] [Server thread/INFO]: Changing view distance to 7, from 10
+[21:58:22] [Server thread/INFO]: Solth_4[local:E:93d1fe79] logged in with entity id 154 at (273.69999998807907, 69.0, 569.6999999880791)
+[21:58:22] [Server thread/INFO]: Solth_4 joined the game
+[21:58:22] [Server thread/INFO]: Solth_4 has completed the challenge [Cover Me in Debris]
+[21:58:22] [Server thread/INFO]: Saving and pausing game...
+[21:58:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[21:58:22] [Render thread/INFO]: хто хрюкнул??? ->> Solth_4 has completed the challenge [Cover Me in Debris]
+[21:58:22] [Render thread/INFO]: Loaded 64 advancements
+[21:58:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[21:58:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[21:58:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2110ms or 42 ticks behind
+[21:58:53] [Server thread/INFO]: Saving and pausing game...
+[21:58:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[21:58:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[21:58:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[21:58:53] [Server thread/INFO]: Solth_4 lost connection: Disconnected
+[21:58:53] [Server thread/INFO]: Solth_4 left the game
+[21:58:53] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[21:58:53] [Server thread/INFO]: Stopping server
+[21:58:53] [Server thread/INFO]: Saving players
+[21:58:53] [Server thread/INFO]: Saving worlds
+[21:58:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[21:58:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[21:58:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[21:58:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:58:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[21:58:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:58:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[21:58:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:58:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:58:54] [Render thread/INFO]: Stopping!

@@ -1,0 +1,4 @@
+@ParametersAreNonnullByDefault
+package net.minecraft.client.gui.recipebook;
+
+import javax.annotation.ParametersAreNonnullByDefault;

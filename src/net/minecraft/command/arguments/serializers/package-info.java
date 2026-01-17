@@ -1,0 +1,4 @@
+@ParametersAreNonnullByDefault
+package net.minecraft.command.arguments.serializers;
+
+import javax.annotation.ParametersAreNonnullByDefault;

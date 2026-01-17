@@ -1,0 +1,4 @@
+@ParametersAreNonnullByDefault
+package net.minecraft.advancements.criterion;
+
+import javax.annotation.ParametersAreNonnullByDefault;

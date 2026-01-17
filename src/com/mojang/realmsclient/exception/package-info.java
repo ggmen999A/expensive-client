@@ -1,0 +1,4 @@
+@ParametersAreNonnullByDefault
+package com.mojang.realmsclient.exception;
+
+import javax.annotation.ParametersAreNonnullByDefault;

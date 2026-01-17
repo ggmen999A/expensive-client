@@ -1,0 +1,4 @@
+@ParametersAreNonnullByDefault
+package net.minecraft.resources;
+
+import javax.annotation.ParametersAreNonnullByDefault;
